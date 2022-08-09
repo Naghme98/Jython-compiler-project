@@ -1,0 +1,82 @@
+import Salam
+import HaletChetore
+
+class Third{
+
+#====These Are Variables===
+	int test1
+	float float_1
+	string str
+	Third[2] th
+	Third t2
+	int i_1
+	String s_1
+	Bool b_2
+	Formula [10] formula
+#==========================
+
+	def Third(self){
+		return self.ab()
+	}
+
+	def int multiply(int a, int b){
+		int result
+		t2 = Third("S_N", false, 100.006)
+		if ( a == 0 or b == 0 ){ result = 0 }
+		elif( a == 1 and b > 1 ){ result = b }
+		elif( b == 1 and a != 1 or a != 0 ){ result = a }
+		else { result = a * b }
+
+		return result
+	}
+
+	def float loop(string s, bool b, float f){
+
+		while( b == true ){
+			for j in range(2,103){
+				print("Hello")
+				print(s)
+			}
+			b = false
+		}
+		return f
+
+	}
+
+	def string thirdClass(string str){
+		if( th[2].isEmpty() == true ){
+			return "#\\Yes//$"
+		}
+		else {
+			return str
+		}
+	}
+
+	def void set_i_1(int x){
+		self.i_1 = x+4*2
+	}
+	def void printSth(){
+		#	int[20] array = int()[20]
+		for item in range (20){
+			if(arr[1] <100) {print("YES")}
+			elif(arr[1]>100 and arr[1]+10*4<10000) {print("MayBe")}
+			else {
+				#this is such a stupid else
+				for item2 in array{
+					print(item2)
+				}
+				#* staaartttttt
+				eeeeennnnnddddd
+				*#
+			}
+		}
+	}
+
+	def string returnedString(self){
+		string s
+		s = self.x
+		return s
+	}
+
+
+}
